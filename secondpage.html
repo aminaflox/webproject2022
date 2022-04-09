@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700" rel="stylesheet">
+  <link rel="stylesheet" href="secondpage.css" type="text/css">
+  <title>attendance</title>
+</head>
+<body>
+<!-- SIDEBAR -->
+<input type="checkbox" class="menu__checkbox" id="sideview-crawl">
+<div class="side-view">
+  <nav class="admin-view__menu">
+    <div class="admin-view__header">
+      <h3 class="company-name">
+        <span>My desk</span>
+      </h3>
+      <div class="menu-icon">
+        <label for="sideview-crawl" class="menu-bar">
+          <svg>
+            <use xlink:href='./icons.svg#icon-menu'></use>
+          </svg>
+        </label>
+      </div>
+    </div>
+    <div class="user-profile">
+      <img src="https://icon-library.com/images/user-icon-jpg/user-icon-jpg-29.jpg" alt="admin-picture">
+      <h3 class="admin-name">
+        <span>User(me)</span>
+      </h3>
+    </div>
+    <ul class="side-nav">
+      <li class="side-nav__active">
+        <a href="secondpage.html">
+          <svg xmlns=""></svg>
+          <span>Dashboard</span>
+        </a>
+      </li>
+      <li class="side-nav__products">
+        <a href="mycourses.html">
+          <svg>
+            <use xlink:href='./icons.svg#icon-package'></use>
+          </svg>
+          <span>My course</span>
+        </a>
+      </li>
+      <li class="side-nav__users">
+        <a href="courselist.html">
+          <svg>
+            <use xlink:href='./icons.svg#icon-user'></use>
+          </svg>
+          <span>Student list</span>
+        </a>
+      </li>
+      <li class="side-nav__orders">
+        <a href="#">
+          <svg>
+            <use xlink:href='./icons.svg#icon-briefcase'></use>
+          </svg>
+          <span>something</span>
+        </a>
+      </li>
+      <li class="side-nav__account">
+        <a href="#">
+          <svg>
+            <use xlink:href='./icons.svg#icon-settings'></use>
+          </svg>
+          <span>Something</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <footer class="footer">
+    <p>&copy; International Ala-t</p>
+  </footer>
+</div>
+
+<!-- main --->
+<main class="main main-content">
+  <div class="header"></div>
+
+  <div class="overview-cards">
+    <div class="card product-card">
+      <div class="title">
+        <h2>My courses</h2>
+      </div>
+      <span class="content product-content">
+                        <svg>
+                            <use xlink:href='./icons.svg#icon-package'></use>
+                        </svg>
+                </span>
+    </div>
+    <div class="card user-card">
+      <div class="title">
+        <h2>Course list</h2>
+      </div>
+      <span class="content user-content">
+                        <svg>
+                            <use xlink:href='./icons.svg#icon-user'></use>
+                        </svg>
+                </span>
+    </div>
+    <div class="card order-card">
+      <div class="title">
+        <h2>funny thing</h2>
+      </div>
+      <span class="content order-content">
+                        <svg>
+                            <use xlink:href='./icons.svg#icon-briefcase'></use>
+                        </svg>
+                </span>
+    </div>
+  </div>
+</main>
+
+</body>
+</html>
